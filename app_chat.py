@@ -5,7 +5,7 @@ import streamlit as st
 import google.generativeai as genai
 from dotenv import load_dotenv
 load_dotenv()
-GOOGLE_API_KEY=os.environ.get('AIzaSyCsTBKmCMNY7Evl7aU_8QwbGFG7ltmUXnM')
+GOOGLE_API_KEY=""
 genai.configure(api_key=GOOGLE_API_KEY)
 
 new_chat_id = f'{time.time()}'
